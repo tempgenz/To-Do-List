@@ -98,8 +98,8 @@ def remove_task():
           "the number is mentioned just before the task")
     while True:
         num = input("Enter the task number: ")
-        if num.isdigit() and count() < int(num):
-            print(f"there is no task on {num}th place enter a valid count")
+        if num.isdigit() and count() < int(num) or int(num) == 0:
+            print(f"there is no task on number {num} place enter a valid count")
             continue
         elif num.isalpha():
             print("You have to enter a number please enter a valid task count")
@@ -140,13 +140,13 @@ def remove_task():
 # read further
 def mark_task():
     if count() == 1:
-        print("Task list is empty\nif you wanna add tasks enter 'add'")
+        print("TASK LIST IS EMPTY\nif you wanna add tasks enter 'add'")
         action()
     else:
         pass
     while True:
         num = input("Which Task do you wanna mark?\nEnter the task number: ")
-        if num.isdigit() and count() > int(num):
+        if num.isdigit() and count() > int(num) != 0:
             break
         else:
             print("Please give a valid input Enter the task number you want to mark\n"
