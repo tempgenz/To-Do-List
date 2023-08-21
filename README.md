@@ -1,5 +1,5 @@
 # To-Do-List
-my first project as a beginner just a To-Do-Listto add and manage tasks
+my first project as a beginner just a To-Do-List to add and manage tasks
 you can add tasks to the list view them if there are 1 or more
 remove them change there status to complete or pending or vise versa 
 when you add a task its saved as pending by default coz obviously why would you add 
