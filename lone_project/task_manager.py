@@ -3,7 +3,6 @@ import sys
 
 import tabulate
 
-
 # the main function greets with a welcome message and info about how to use the program
 # after informing about available action commands it calls the action function
 def main():
@@ -15,7 +14,6 @@ def main():
           "Mark:- enter 'mark' to mark your tasks as complete or pending or vise versa\n"
           "EXIT:- enter 'exit' to exit the program")
     action()
-
 
 # the action function this one is called everytime the user completes any action to ask for next command
 # this one just takes an input of what action user wants to perform and then calls the responsible function accordingly
